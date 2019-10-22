@@ -1,4 +1,15 @@
+function takeANumber(currentline){
+  currentline.push();
+for (i=0;i<currentline.length;i++);
+return `You are ${currentline.length} in line.`;
+}
+
+
+
+
 function takeANumber (currentLine, name)
+
+
 { 
   currentLine.push(name);
   return `Welcome, ${name}. You are number ${currentLine.length } in line.`;
